@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 245, 245);
+    min-height: 100vh;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/img/splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    height: 7rem;
+    align-items: center;
+    position: relative;
+    bottom: 12rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.shadow {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.travellr {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.luggage {
+    width: auto;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.credits {
+    font-size: 0.7rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.credits p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.credits p a {
+    color: white;
+}
+
+.content {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form button {
+    margin-top: 2rem;
+}
+
+.first-name,
+.last-name,
+.email,
+.phone,
+.password,
+.confirm {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-name,
+.phone,
+.confirm {
+    margin-left: 2rem;
+}
+
+.first-row,
+.second-row,
+.third-row {
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: -5rem;
+    margin-right: -5rem;
+}
+
+.first-row {
+    padding-top: 2rem;
+    box-shadow: 0 -1px 1px -1px rgb(200, 200, 200);
+}
+
+.third-row {
+    padding-bottom: 2rem;
+    box-shadow: 0 5px 5px -5px rgb(200, 200, 200);
+}

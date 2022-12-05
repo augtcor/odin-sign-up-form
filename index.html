@@ -9,47 +9,76 @@
     <title>Sign-up</title>
 </head>
 <body>
-    <section class="left">
-        <div class="container">
-            <p>Travellr</p>
+    <div class="page">
+        
+        <div class="left">
+            <div class="logo">
+                <div class="shadow">
+                    <img class="luggage" src="/img/travel-luggage.png" alt="luggage icon">
+                <p class="travellr">Travellr</p>
+                </div>
+            </div>
 
-            <p>Photo by <a href="https://unsplash.com/@timonrets">Timo Stern</a> on <a href="https://unsplash.com/">Unsplash</a></p>
-            <p>Travel icon by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> on <a href="https://flaticon.com/">Flaticon</a></p>
-        </div>
-    </section>
-    <section class="right">
-        <div class="container">
+            <div class="credits">
+                <p>Photo by <a href="https://unsplash.com/@timonrets">Timo Stern</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+                <p>Luggage icon by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> on <a href="https://flaticon.com/">Flaticon</a></p>
+            </div>
+        </div>      
+            
+        <div class="right">
             <div class="content">
                 <p>Find your next trip.</p>
                 <p>Select the features of the place you want to travel to – location, weather, attractions – and we will show you a carefully curated list for your next trip.</p>
             </div>
+
             <div class="form">
                 <form action="#" method="post">
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name">
-                    
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name">
+                    <div class="first-row">
+                        <div class="first-name">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        
+                        <div class="last-name">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>   
+                    </div>    
 
-                    <label for="user_email">E-mail</label>
-                    <input type="email" id="user_email" name="email">
+                    <div class="second-row">
+                        <div class="email">
+                            <label for="user_email">E-mail</label>
+                            <input type="email" id="user_email" name="email">
+                        </div>
+                        
+                        <div class="phone">
+                            <label for="user_phone">Phone</label>
+                            <input type="tel" id="user_phone" name="phone">
+                        </div>
+                    </div>    
 
-                    <label for="user_phone">Phone</label>
-                    <input type="tel" id="user_phone" name="phone">
-
-                    <label for="user_password">Password</label>
-                    <input type="password" id="user_password" name="password">
-
-                    <label for="user_password">Confirm Password</label>
-                    <input type="password" id="user_password" name="password">
+                    <div class="third-row">
+                        <div class="password">
+                            <label for="user_password">Password</label>
+                            <input type="password" id="user_password" name="password">
+                        </div>
+                        
+                        <div class="confirm">
+                            <label for="user_password">Confirm Password</label>
+                            <input type="password" id="user_password" name="password">
+                        </div>   
+                    </div>
 
                     <button type="submit">Create Account</button>
                 </form>
             </div>
+
             <div class="reminder">
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
-        </div>
-    </section>  
+
+        </div>    
+        
+    </div>  
 </body>
 </html>
