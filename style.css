@@ -84,7 +84,10 @@ body {
 }
 
 .content {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.register {
     font-weight: bold;
 }
 
@@ -93,8 +96,31 @@ body {
     margin-bottom: 1rem;
 }
 
+input {
+    padding: 0.4rem;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+    width: 15rem;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
 .form button {
     margin-top: 2rem;
+    background-color: rgb(223, 128, 128);
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    font-size: large;
+    font-weight: bold;
 }
 
 .first-name,
@@ -110,7 +136,7 @@ body {
 .last-name,
 .phone,
 .confirm {
-    margin-left: 2rem;
+    margin-left: 5rem;
 }
 
 .first-row,
@@ -135,4 +161,18 @@ body {
 .third-row {
     padding-bottom: 2rem;
     box-shadow: 0 5px 5px -5px rgb(200, 200, 200);
+}
+
+.password input:invalid {
+    border-color: rgba(255, 0, 0);
+}
+
+.confirm input:invalid {
+    border-color: rgba(255, 0, 0);
+}
+
+.reminder a {
+    color: rgb(223, 128, 128);
+    text-decoration: none;
+    font-weight: bold;
 }
